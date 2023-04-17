@@ -1,5 +1,4 @@
 import 'package:pert6/api_data_source.dart';
-import 'package:pert6/page_list_user.dart';
 import 'package:pert6/user_model.dart';
 import 'package:flutter/material.dart';
 import 'package:pert6/page_detail_user.dart';

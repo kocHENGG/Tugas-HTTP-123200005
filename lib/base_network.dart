@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class BaseNetwork {
-  static final String baseUrl = "https://reqres.in/api/";
+  static final String baseUrl = "https://reqres.in/api";
 
   static Future<Map<String, dynamic>> get(String partUrl) async {
     final String fullUrl = baseUrl + "/" + partUrl;
